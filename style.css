@@ -180,7 +180,7 @@ body{
   padding: 0.5%;
 
 }
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 375px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .sidenav {margin-top: 4.9%;}
@@ -194,6 +194,10 @@ body{
     font-size: medium;
     margin-top: -7px;
   }
+  #linesButton{
+    margin-top: -25px;
+  }
+
 }
 @media  screen and (max-width: 1290px) {
 .logo{
@@ -217,6 +221,15 @@ body{
 }
 .sidenav{
   margin-top: 62.6px;
+}
+.cETM{
+  font-size: small;
+}
+.cETL{
+  font-size: small;
+}
+.cET{
+  font-size: small;
 }
 }
 /*For mobile screen sizes, 360 and 375 widths are considered to be the perfect match*/
