@@ -205,7 +205,7 @@ body{
     margin-right: 10px;
   }
 }
-@media only screen and (max-height: 1290px) {
+@media only screen and (max-height: 431px) {
 .logo{
   width: 60px;
   height: 50px;
