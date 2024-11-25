@@ -213,10 +213,12 @@ body{
   font-size: 20px;
 }
 .save{
+  margin-left: 70px;
   margin-top: -47px;
   font-size: medium;
 }
 .nature{
+  margin-left: 85px;
   font-size: medium;
   margin-top: -7px;
 }
