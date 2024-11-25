@@ -234,3 +234,36 @@ body{
 }
 /*For mobile screen sizes, 360 and 375 widths are considered to be the perfect match*/
 /*What about the tablet screen resolution, 1280×800 and 768×1024 are the best choice*/
+@media only screen and (min-height: 932px){
+  .logo{
+    width: 60px;
+    height: 50px;
+  }
+  .mainBar{
+    padding-top: 6px;
+    height: 55px;
+  }
+  .nM{
+    margin-top: -35px;
+    font-size: 20px;
+  }
+  .save{
+    margin-top: -55px;
+  }
+  .lines{
+    width: 27px;
+    height: 27px;
+  }
+  .sidenav{
+    margin-top: 62.6px;
+  }
+  .cETM{
+    font-size: small;
+  }
+  .cETL{
+    font-size: small;
+  }
+  .cET{
+    font-size: small;
+  }
+}
