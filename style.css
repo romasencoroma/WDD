@@ -180,7 +180,7 @@ body{
   padding: 0.5%;
 
 }
-@media screen and (max-height: 375px) {
+/*@media screen and (max-height: 375px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .sidenav {margin-top: 4.9%;}
@@ -204,7 +204,7 @@ body{
   .sidenav{
     margin-right: 10px;
   }
-}
+}*/
 @media (max-width: 481px) {
 .logo{
   width: 60px;
