@@ -61,6 +61,7 @@ body{
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
+    border-right: black solid 2px;
     margin-top: 73.5px;
     background-color: lightgreen; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
@@ -74,6 +75,7 @@ body{
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
+  border-right: black solid 2px;
   margin-top: 73.5px;
   background-color: #019128; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
@@ -143,7 +145,7 @@ body{
   background-color: lightgreen;
   border: black 2px solid;
   padding: 0.5%;
-  margin-top: 50px;
+  margin-top: -30.5%;
 }
 .cEN{
   width: 45%;
@@ -164,7 +166,7 @@ body{
 }
 .cEImg{
   margin-left: 47%;
-  margin-top: -390px;
+  margin-top: 50px;
   width: 50%;
   background-color: lightgreen;
   border: black 2px solid;
@@ -199,7 +201,7 @@ body{
     margin-top: -7px;
   }
   #linesButton{
-    margin-top: -25px;
+    margin-top: -35px;
   }
   .sidenav{
     margin-right: 10px;
@@ -208,7 +210,7 @@ body{
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
   /* CSS */
 }
-@media (max-width: 431px) {
+@media (max-width: 1000px) {
 .logo{
   width: 60px;
   height: 50px;
@@ -248,12 +250,115 @@ body{
   font-size: small;
 }
 #linesButton{
+  margin-top: -25px;
+  
+}
+.sidenav{
+  margin-right: 10px;
+}
+.cE{
+  margin-top: -30.5%;
+}
+}
+@media (min-width: 1150px ) and (max-width: 1280px) {
+.logo{
+  width: 60px;
+  height: 50px;
+}
+.mainBar{
+  padding-top: 6px;
+  height: 55px;
+}
+.nM{
+  margin-top: -35px;
+  font-size: 20px;
+}
+.save{
+  margin-left: 70px;
+  margin-top: -47px;
+  font-size: large;
+}
+.nature{
+  margin-left: 85px;
+  font-size: large;
+  margin-top: -7px;
+}
+.lines{
+  width: 27px;
+  height: 27px;
+}
+.sidenav{
+  margin-top: 62.6px;
+}
+.cETM{
+  font-size: medium;
+}
+.cETL{
+  font-size: medium;
+}
+.cET{
+  font-size: medium;
+}
+#linesButton{
   margin-top: -35px;
   
 }
 .sidenav{
   margin-right: 10px;
 }
+.cE{
+margin-top: -30.5%;
 }
+}
+@media (min-width: 1000px ) and (max-width: 1150px) {
+  .logo{
+    width: 60px;
+    height: 50px;
+  }
+  .mainBar{
+    padding-top: 6px;
+    height: 55px;
+  }
+  .nM{
+    margin-top: -35px;
+    font-size: 20px;
+  }
+  .save{
+    margin-left: 70px;
+    margin-top: -47px;
+    font-size: large;
+  }
+  .nature{
+    margin-left: 85px;
+    font-size: large;
+    margin-top: -7px;
+  }
+  .lines{
+    width: 27px;
+    height: 27px;
+  }
+  .sidenav{
+    margin-top: 62.6px;
+  }
+  .cETM{
+    font-size: medium;
+  }
+  .cETL{
+    font-size: medium;
+  }
+  .cET{
+    font-size: medium;
+  }
+  #linesButton{
+    margin-top: -35px;
+    
+  }
+  .sidenav{
+    margin-right: 10px;
+  }
+  .cE{
+  margin-top: -30.5%;
+  }
+  }
 /*For mobile screen sizes, 360 and 375 widths are considered to be the perfect match*/
 /*What about the tablet screen resolution, 1280×800 and 768×1024 are the best choice*/
