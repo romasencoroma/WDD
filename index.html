@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- some fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- some fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> <!-- some fonts -->
+    <link href="style.css" rel="stylesheet"><!-- conection of CSS -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snature</title>
-    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- to make wep page responsive-->
+    <title>Snature</title> <!-- Title-->
+    <script src="script.js"></script><!-- connection of JS-->
 </head>
 <body> 
 
-    <div id="mainBar" class="mainBar">
-        <img src="logo.webp" alt="logoPhoto" class="logo">
-        <div class="save">Save</div>
-        <div id="nature" class="nature">Nature</div>
-        <button id="linesButton" onclick="openNav()"><img src="images/3LinesButton.png" class="lines"></button>
-        <button id="nM" onclick="darkM()" class="nM">Night mode</button>
+    <div id="mainBar" class="mainBar"> <!-- creating top bar -->
+        <img src="logo.webp" alt="logoPhoto" class="logo"><!-- adding logo-->
+        <div class="save">Save</div><!-- adding first part of name-->
+        <div id="nature" class="nature">Nature</div><!-- adding second part of name-->
+        <button id="linesButton" onclick="openNav()"><img src="images/3LinesButton.png" class="lines"></button><!-- adding button for opening side nav -->
+        <button id="nM" onclick="darkM()" class="nM">Night mode</button><!-- adding button for Night mode -->
         
         
     </div>
 
-        <div id="main" class="mainn">
-            <div class="cEImg" id="cEI">
-                <img src="exofcE.webp" class="imgCE">
+        <div id="main" class="mainn"> <!-- adding main div in wich will be all content -->
+            <div class="cEImg" id="cEI"><!-- adding div for image -->
+                <img src="exofcE.webp" class="imgCE"> <!--adding image-->
             </div>
-            <div class="cE" id="cE">
-                <h3>Affordable and Clean Energy</h3>
+            <div class="cE" id="cE"><!-- adding div for text -->
+                <h3>Affordable and Clean Energy</h3><!-- adding text-->
                 <span class="cETL">Affordable and clean energy is a cornerstone of sustainable development, aiming to ensure universal access to reliable, renewable, and cost-effective energy sources while reducing environmental harm. This goal aligns with United Nations Sustainable Development Goal 7 (SDG 7), emphasizing energy accessibility, efficiency, and the transition to renewable energy. </span>
-                <br>
+                <br><!-- to make it looks better and create extra space without CSS-->
                 <br>
                 <span class="cET"><span class="cETM">Accessibility:</span> Millions worldwide still lack access to electricity or rely on unsafe and inefficient energy sources, such as wood or kerosene, for basic needs like lighting and cooking. Affordable clean energy systems, such as solar home kits or mini-grids, can provide reliable power to remote and underserved communities.</span>
                 <br>
@@ -42,9 +42,9 @@
             
         </div>
              <!-- This part of a code was tooked from w3school-->
-    <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">About</a>
+    <div id="mySidenav" class="sidenav"><!-- adding side nav div -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><!--creating a button for closing sidenav-->
+        <a href="#">About</a><!-- some links in sidenav-->
         <a href="#">Services</a>
         <a href="#">Clients</a>
         <a href="#">Contact Us</a>

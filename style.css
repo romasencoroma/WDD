@@ -1,60 +1,61 @@
 .mainBar{
-  position: fixed;
-    height: 72px;
-    border-bottom: 2px black solid;
-    background-color: lightgreen;
-    width: 100%;
-    margin-bottom: 30px;
+  position: fixed; /* we making top nav bar fixed*/
+    height: 72px; /* give him height size */
+    border-bottom: 2px black solid; /* creating border */
+    background-color: lightgreen; /* give him color of background*/
+    width: 100%; /* give him width 100% */
+    margin-bottom: 30px; /* giving him extra space on bottom outside the div */
     /*#019128*/
   
 }
 body{
-  margin: 0;
+  margin: 0; /* deleteing default margins*/
 }
 .mainBarN{
-  position: fixed;
-  height: 72px;
-  border-bottom: 2px black solid;
-  background-color: #019128;
+  position: fixed;/* we making top nav bar fixed*/
+  height: 72px;/* give him height size */
+  border-bottom: 2px black solid;/* creating border */
+  background-color: #019128;/* give him color of background*/
+  margin-bottom: 30px; /* giving him extra space on bottom outside the div */
 }
 .logo{
-    width: 80px;
-    height: 70px;
+    width: 80px; /* giving him size width 80px*/
+    height: 70px;/* giving him size height 70px*/
 
 }
 .save{
-    font-family: "Lora", serif;
-    font-size: x-large;
-    color: blue;
-    margin-left: 120px;
-    margin-top: -65px;
+    font-family: "Lora", serif;/* giving him font style */
+    font-size: x-large; /* adding font size */
+    color: blue; /* adding font color*/
+    margin-left: 120px; /* margin from left  */
+    margin-top: -65px; /* margin from top */
 }
 .nature{
-    font-family: "Lora", serif;
-    font-size: x-large;
-    color: green;
-    margin-left: 150px;
-    margin-top: -12px;
+    font-family: "Lora", serif;/* giving him font style */
+    font-size: x-large;/* adding font size */
+    color: green;/* adding font color*/
+    margin-left: 150px;/* margin from left  */
+    margin-top: -12px;/* margin from top */
 }
 .natureN{
-  font-family: "Lora", serif;
-  font-size: x-large;
-  color: lightgreen;
-  margin-left: 150px;
-  margin-top: -12px;
+  font-family: "Lora", serif;/* giving him font style */
+  font-size: x-large;/* adding font size */
+  color: lightgreen;/* adding font color*/
+  margin-left: 150px;/* margin from left  */
+  margin-top: -12px;/* margin from top */
 }
 .lines{
-    width: 40px;
-    height: 40px;
+    width: 40px;/* give him width size */
+    height: 40px;/* give him height size */
 
 }
 #linesButton{
-  display: block;
-  margin-left: auto;
-  margin-right: 5px;
-  margin-top: -3%;
+  display: block;/* make element displayed as block */
+  margin-left: auto;/* moveing him to the right  */
+  margin-right: 5px;/* moveing him back to left */
+  margin-top: -3%;/* moveing him to the top */
 }
-/* The side navigation menu */
+/* The side navigation menu (from w3school) */
 .sidenav {
     height: 90%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -69,7 +70,7 @@ body{
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
  }
- .sidenavN {
+ .sidenavN { /* all classes with N in the end added by me to create a Night Mode*/
   height: 90%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -107,85 +108,86 @@ body{
     font-size: 36px;
     margin-left: 50px;
   }
+  /* end of w3school code */
 .mainn {
-    background-color: rgb(220, 221, 220);
-    transition: margin-left .5s;
-    padding-left: 1%;
-    padding-top: 50px;
-    padding-bottom: 15%;
+    background-color: rgb(220, 221, 220); /* giving main div background color */
+    transition: margin-left .5s; /* 5 second transition effect to slide in the sidenav */
+    padding-left: 1%; /* inside extra space from the left */
+    padding-top: 50px; /* inside extra space from the top */
+    padding-bottom: 15%; /* inside extra space from the bottom */
   }
 .nM{
-    font-family: "Lora", serif;
-    border: none;
-    background-color: lightgreen;
-    font-size: 25px;
-    color: black;
-    display: block;
-    margin-left: auto;
-    margin-right: 65px;
-    margin-top: -45px;
-    transition: 0.3s;
+    font-family: "Lora", serif;/* giving him font style */
+    border: none; /* delete border */ 
+    background-color: lightgreen; /* add background color */
+    font-size: 25px; /* giving font size */
+    color: black; /* add font color */
+    display: block; /* displaying content as block  */
+    margin-left: auto; /* moving to the right  */
+    margin-right: 65px; /* moving back to the left */
+    margin-top: -45px; /* moving to the top */
+    transition: 0.3s; /* 0.3 second transition effect to slide in the sidenav */
   }
  .nMN{
-    font-family: "Lora", serif;
-    border: none;
-    background-color:#019128 ;
-    font-size: 25px;
-    color: black;
-    display: block;
-    margin-left: auto;
-    margin-right: 65px;
-    margin-top: -45px;
-    transition: 0.3s;
+    font-family: "Lora", serif;/* giving him font style */
+    border: none;/* delete all borders */
+    background-color:#019128 ;/* adding background color */
+    font-size: 25px; /* making font size */
+    color: black; /* making font color black */
+    display: block; /* dispaying elemnts as a block */
+    margin-left: auto; /* moving it to the right */
+    margin-right: 65px; /* moivng it back to the right a litle bit */
+    margin-top: -45px; /* moving it to the top */
+    transition: 0.3s;/* 0.3 second transition effect to slide in the sidenav */
   }
 .dark-mode{
-    background-color: rgb(0,0,0,0.4);
+    background-color: rgb(0,0,0,0.4); /* adding background color */ 
   }
 .cE{
-  width: 45%;
-  background-color: lightgreen;
-  border: black 2px solid;
-  padding: 0.5%;
-  margin-top: -30.5%;
+  width: 45%; /* making width of the element */
+  background-color: lightgreen;/* making background color */
+  border: black 2px solid; /* adding border  */
+  padding: 0.5%; /* adding inside extra space */
+  margin-top: -30.5%; /* moving element to the top */
 }
 
 .cEN{
-  width: 45%;
-  background-color: #019128;
-  border: black 2px solid;
-  padding: 0.5%;
-  margin-top: -30.5%;
+  width: 45%; /* give him width size */
+  background-color: #019128; /* give him color of background*/
+  border: black 2px solid; /* creating border */
+  padding: 0.5%; /* adding inside extra space */
+  margin-top: -30.5%; /* moving element to the top */
 }
 .cET{
-  margin-top: 20px;
+  margin-top: 20px; /* moving element to the bottom for 20px */
 }
 .cETM{
-  font-weight: bold;
-  font-size: 17px;
+  font-weight: bold; /* making font bold */
+  font-size: 17px; /* adding font size */
 }
 .imgCE{
-  width: 100%;
-  height: 100%;
+  width: 100%; /* making width 100%*/
+  height: 100%; /* making height 100% */
 }
 .cEImg{
-  margin-left: 47%;
-  margin-top: 50px;
-  width: 50%;
-  background-color: lightgreen;
-  border: black 2px solid;
-  padding: 0.5%;
+  margin-left: 47%; /* margin from left  */
+  margin-top: 50px; /* margin from top */
+  width: 50%; /* making width 50% */
+  background-color: lightgreen; /* making background color */
+  border: black 2px solid; /* create a border */
+  padding: 0.5%; /* adding inside extra space */
 
 }
 .cEImgN{
-  margin-left: 47%;
-  margin-top: 50px;
-  width: 50%;
-  background-color: #019128;
-  border: black 2px solid;
-  padding: 0.5%;
+  margin-left: 47%; /* margin from left  */
+  margin-top: 50px; /* margin from top */
+  width: 50%; /* making width 50% */
+  background-color: #019128; /* making background color */
+  border: black 2px solid; /* create a border */
+  padding: 0.5%; /* adding inside extra space */
 
 }
-@media screen and (max-height: 375px) {
+@media screen and (max-height: 375px) { /* make some different style for phone */
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
   .sidenav {margin-top: 4.9%;}
@@ -213,7 +215,7 @@ body{
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
   /* CSS */
 }
-@media (max-width: 1000px) {
+@media (max-width: 1000px) { /* make some different style for phone */
 .logo{
   width: 60px;
   height: 50px;
@@ -276,7 +278,7 @@ body{
   transition: 0.3s;
 }
 }
-@media (min-width: 1150px ) and (max-width: 1280px) {
+@media (min-width: 1150px ) and (max-width: 1280px) { /* make some different style for tablet */
 .logo{
   width: 60px;
   height: 50px;
@@ -326,7 +328,7 @@ body{
 margin-top: -30.5%;
 }
 }
-@media (min-width: 1000px ) and (max-width: 1150px) {
+@media (min-width: 1000px ) and (max-width: 1150px) {  /* make some different style for tablet */
   .logo{
     width: 60px;
     height: 50px;
@@ -376,5 +378,3 @@ margin-top: -30.5%;
   margin-top: -30.5%;
   }
   }
-/*For mobile screen sizes, 360 and 375 widths are considered to be the perfect match*/
-/*What about the tablet screen resolution, 1280×800 and 768×1024 are the best choice*/
