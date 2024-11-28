@@ -12,6 +12,7 @@ body{
   margin: 0;
 }
 .mainBarN{
+  position: fixed;
   height: 72px;
   border-bottom: 2px black solid;
   background-color: #019128;
@@ -147,11 +148,13 @@ body{
   padding: 0.5%;
   margin-top: -30.5%;
 }
+
 .cEN{
   width: 45%;
   background-color: #019128;
   border: black 2px solid;
   padding: 0.5%;
+  margin-top: -30.5%;
 }
 .cET{
   margin-top: 20px;
@@ -175,7 +178,7 @@ body{
 }
 .cEImgN{
   margin-left: 47%;
-  margin-top: -390px;
+  margin-top: 50px;
   width: 50%;
   background-color: #019128;
   border: black 2px solid;
