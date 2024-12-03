@@ -169,7 +169,7 @@ body{
   width: 100%; /* making width 100%*/
   height: 100%; /* making height 100% */
 }
-.cEImg{
+.cEImg{/**/
   margin-left: 47%; /* margin from left  */
   margin-top: 50px; /* margin from top */
   width: 50%; /* making width 50% */
@@ -190,8 +190,90 @@ body{
 .fL{
   color: black;
   text-decoration: none
+}
+.imgSP{
+  width: 100%;
+  height: 100%;
+  
+}
+.dImgSP{
+ 
+  width: 50%;
+  height: 430px;
+  margin-left: 45%;
+  margin-top: 20px;
+  padding: 10px;
 
 }
+.dImgWE{
+ 
+  width: 50%;
+  height: 430px;
+  margin-left: 45%;
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 40px;
+
+}
+.dImgTID{
+  width: 50%;
+  height: 430px;
+  margin-left: 45%;
+  margin-top: 20px;
+  padding: 10px;
+  margin-bottom: 90px;
+
+}
+.SED{
+  padding: 0.5%; /* adding inside extra space */
+  padding-bottom: 120px;
+  background-color: lightgreen; /* making background color */
+  border: black 2px solid; /* create a border */
+  margin-top: 5%;
+  width: 96%;
+  
+}
+.SEDL{
+  padding: 0.5%; /* adding inside extra space */
+  padding-bottom: 120px;
+  background-color: lightgreen; /* making background color */
+  border: black 2px solid; /* create a border */
+  margin-top: 2%;
+  width: 96%;
+  
+}
+.SEDN{
+  padding: 0.5%; /* adding inside extra space */
+  padding-bottom: 120px;
+  background-color: #019128; /* making background color */
+  border: black 2px solid; /* create a border */
+  margin-top: 5%;
+  width: 96%;
+  
+}
+.SEDNL{
+  padding: 0.5%; /* adding inside extra space */
+  padding-bottom: 120px;
+  background-color: #019128; /* making background color */
+  border: black 2px solid; /* create a border */
+  margin-top: 2%;
+  width: 96%;
+  
+}
+.SLETXT{
+  font-size: 17px;
+  display: block;
+  width: 100%;
+}
+.SEB{
+  font-size: 22px;
+}
+.DSLETXT{
+  width: 40%;
+  margin-top: -30%;
+  margin-left: 1%;
+}
+
 @media screen and (max-height: 375px) { /* make some different style for phone */
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -282,8 +364,18 @@ body{
   display: block;
   transition: 0.3s;
 }
+.imgSP{
+  width: 100%;
+  height: 25%;
+  margin: 0;
 }
-@media (min-width: 1150px ) and (max-width: 1280px) { /* make some different style for tablet */
+.SLETXT{
+  font-size: small;
+  display: block;
+  width: 100%;
+}
+}
+@media (min-width: 1120px ) and (max-width: 1290px) { /* make some different style for tablet */
 .logo{
   width: 60px;
   height: 50px;
@@ -332,8 +424,19 @@ body{
 .cE{
 margin-top: -30.5%;
 }
+.imgSP{
+  width: 500px;
+  height: 400px;
+margin-top: -360px;
+margin-left: 480px;
 }
-@media (min-width: 1000px ) and (max-width: 1150px) {  /* make some different style for tablet */
+.SLETXT{
+  font-size: medium;
+  display: block;
+  width: 40%;
+}
+}
+@media (min-width: 1000px ) and (max-width: 1120px) {  /* make some different style for tablet */
   .logo{
     width: 60px;
     height: 50px;
@@ -381,5 +484,16 @@ margin-top: -30.5%;
   }
   .cE{
   margin-top: -30.5%;
+  }
+  .imgSP{
+    width: 500px;
+    height: 400px;
+  margin-top: -550px;
+margin-left: 480px;
+  }
+  .SLETXT{
+    font-size: medium;
+    display: block;
+    width: 40%;
   }
   }

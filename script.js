@@ -31,4 +31,19 @@ function openNav() {/* function absolutly remaded by Roman */
     document.getElementById("nM").classList.toggle("nMN") /* give another style for button dark mode */
     document.getElementById("cE").classList.toggle("cEN") /* give another style for text div */
     document.getElementById("cEI").classList.toggle("cEImgN") /* give another style for image div */
+    
+  }
+  function darkM2() { /* function dark mode  */
+    document.getElementById("main").classList.toggle("dark-mode"); /* give main div another style  */
+    document.getElementById("mainBar").classList.toggle("mainBarN") /* give top nav bar another style  */
+    document.getElementById("nature").classList.toggle("natureN") /* give another style to word nature */
+    document.getElementById("mySidenav").classList.toggle("sidenavN") /* give another style for sidenav */
+    document.getElementById("nM").classList.toggle("nMN") /* give another style for button dark mode */
+    document.getElementById("SED").classList.toggle("SEDN")
+    document.getElementById("SEDL").classList.toggle("SEDNL")
+    document.getElementById("SEDLL").classList.toggle("SEDNL")
+    document.getElementById("SEDLLN").classList.toggle("SEDNL")
+    document.getElementById("SEDLLNS").classList.toggle("SEDNL")
+    document.getElementById("SEDLLNP").classList.toggle("SEDNL")
+    document.getElementById("SEDLLNPS").classList.toggle("SEDNL")
   }
