@@ -302,7 +302,7 @@ body{
 @media only screen and (-webkit-min-device-pixel-ratio: 3) {
   /* CSS */
 }
-@media (max-width: 1000px) { /* make some different style for phone */
+@media (max-width: 950px) { /* make some different style for phone */
 .logo{
   width: 60px;
   height: 50px;
@@ -366,16 +366,44 @@ body{
 }
 .imgSP{
   width: 100%;
-  height: 25%;
-  margin: 0;
+  height: 100%;
 }
 .SLETXT{
-  font-size: small;
+  font-size: medium;
   display: block;
   width: 100%;
 }
+.DSLETXT{
+  width: 90%;
+  margin-top: 0%;
+  margin-left: 10px;
 }
-@media (min-width: 1120px ) and (max-width: 1290px) { /* make some different style for tablet */
+.dImgSP{
+  margin-left: 0;
+  width: 90%;
+  height: 400px;
+  margin-top: 5px;
+  padding: 10px;
+
+}
+.dImgWE{
+  margin-left: 0;
+  width: 90%;
+  height: 400px;
+  margin-top: 10px;
+  padding: 10px;
+
+}
+.dImgTID{
+  margin-left: 0;
+  width: 90%;
+  height: 400px;
+  margin-top: 10px;
+  padding: 10px;
+
+}
+}
+@media (min-width: 950px ) and (max-width: 1290px) { /* make some different style for tablet */
 .logo{
   width: 60px;
   height: 50px;
@@ -425,15 +453,27 @@ body{
 margin-top: -30.5%;
 }
 .imgSP{
-  width: 500px;
-  height: 400px;
-margin-top: -360px;
-margin-left: 480px;
+  width: 100%;
+  height: 100%;
 }
 .SLETXT{
   font-size: medium;
   display: block;
+  width: 100%;
+}
+.DSLETXT{
   width: 40%;
+  margin-top: -30%;
+  margin-left: 1%;
+}
+.dImgSP{
+ 
+  width: 50%;
+  height: 430px;
+  margin-left: 45%;
+  margin-top: 20px;
+  padding: 10px;
+
 }
 }
 @media (min-width: 1000px ) and (max-width: 1120px) {  /* make some different style for tablet */
@@ -486,14 +526,26 @@ margin-left: 480px;
   margin-top: -30.5%;
   }
   .imgSP{
-    width: 500px;
-    height: 400px;
-  margin-top: -550px;
-margin-left: 480px;
+    width: 100%;
+    height: 100%;
   }
   .SLETXT{
     font-size: medium;
     display: block;
+    width: 100%;
+  }
+  .dImgSP{
+ 
+    width: 50%;
+    height: 430px;
+    margin-left: 45%;
+    margin-top: 20px;
+    padding: 10px;
+  
+  }
+  .DSLETXT{
     width: 40%;
+    margin-top: -42%;
+    margin-left: 1%;
   }
   }
