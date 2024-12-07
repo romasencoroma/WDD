@@ -667,14 +667,6 @@ margin-top: -30.5%;
     width: 96%;
   }
 
-  .CCA5{
-    padding: 0.5%; 
-    padding-bottom: 120px;
-    background-color: lightgreen; 
-    border: black 2px solid; 
-    margin-top: 5%;
-    width: 96%;
-  }
   .location{  /* to change the position of the google maps */
     position: relative;
   }
@@ -688,7 +680,7 @@ margin-top: -30.5%;
   @media (max-width: 950px) { /* code to make it responsive on phone*/
 
   .CA1{
-    width: 98%;
+    width: 60%;
     margin-left: 0;
   }
 
