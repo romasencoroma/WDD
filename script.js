@@ -30,8 +30,11 @@ function openNav() {/* function absolutly remaded by Roman */
     document.getElementById("mySidenav").classList.toggle("sidenavN") /* give another style for sidenav */
     document.getElementById("nM").classList.toggle("nMN") /* give another style for button dark mode */
     document.getElementById("cE").classList.toggle("cEN") /* give another style for text div */
+    document.getElementById("nE").classList.toggle("cEN") /* give another style for text div */
+    document.getElementById("wE").classList.toggle("cEN") /* give another style for text div */
+    document.getElementById("wEI").classList.toggle("cEImgN") /* give another style for image div */
     document.getElementById("cEI").classList.toggle("cEImgN") /* give another style for image div */
-    
+    document.getElementById("nEI").classList.toggle("nEImgN") /* give another style for image div */
   }
   function darkM2() { /* function dark mode  */
     document.getElementById("main").classList.toggle("dark-mode"); /* give main div another style  */
@@ -47,6 +50,7 @@ function openNav() {/* function absolutly remaded by Roman */
     document.getElementById("SEDLLNP").classList.toggle("SEDNL")
     document.getElementById("SEDLLNPS").classList.toggle("SEDNL")
   }
+// End of Roman's part
   function darkM3() { 
     document.getElementById("main").classList.toggle("dark-mode"); 
     document.getElementById("mainBar").classList.toggle("mainBarN") 
