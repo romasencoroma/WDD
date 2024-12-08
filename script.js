@@ -50,3 +50,4 @@ function openNav() {/* function absolutly remaded by Roman */
     document.getElementById("SEDLLNP").classList.toggle("SEDNL")
     document.getElementById("SEDLLNPS").classList.toggle("SEDNL")
   }
+// lox
