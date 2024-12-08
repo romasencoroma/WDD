@@ -169,35 +169,11 @@ body{
   width: 100%; /* making width 100%*/
   height: 100%; /* making height 100% */
 }
-.imgNE{
-  width: 100%; /* making width 100%*/
-  height: 100%; /* making height 100% */
-}
 .cEImg{/**/
   margin-left: 47%; /* margin from left  */
   margin-top: 50px; /* margin from top */
   width: 50%; /* making width 50% */
   background-color: lightgreen; /* making background color */
-  border: black 2px solid; /* create a border */
-  padding: 0.5%; /* adding inside extra space */
-
-}
-.nEImg{/**/
-  margin-left: 48%; /* margin from left  */
-  margin-top: 8%; /* margin from top */
-  height: 30%;
-  width: 50%; /* making width 50% */
-  background-color: lightgreen; /* making background color */
-  border: black 2px solid; /* create a border */
-  padding: 0.5%; /* adding inside extra space */
-
-}
-.nEImgN{/**/
-  margin-left: 47%; /* margin from left  */
-  margin-top: 8%; /* margin from top */
-  height: 30%;
-  width: 50%; /* making width 50% */
-  background-color: #019128; /* making background color */
   border: black 2px solid; /* create a border */
   padding: 0.5%; /* adding inside extra space */
 
@@ -227,7 +203,7 @@ body{
   margin-left: 45%;
   margin-top: 20px;
   padding: 10px;
-  padding-bottom: 80px;
+
 }
 .dImgWE{
  
@@ -237,7 +213,7 @@ body{
   margin-top: 20px;
   padding: 10px;
   margin-bottom: 40px;
-  padding-bottom: 80px;
+
 }
 .dImgTID{
   width: 50%;
@@ -246,8 +222,9 @@ body{
   margin-top: 20px;
   padding: 10px;
   margin-bottom: 90px;
-  padding-bottom: 80px;
+
 }
+
 .SED{
   padding: 0.5%; /* adding inside extra space */
   padding-bottom: 120px;
@@ -377,10 +354,6 @@ body{
   width: 98%;
 }
 .cEImg{
-  width: 98%;
-  margin-left: 0;
-}
-.nEImg{
   width: 98%;
   margin-left: 0;
 }
@@ -577,3 +550,210 @@ margin-top: -30.5%;
     margin-left: 1%;
   }
   }
+  /* End of Roman's CSS*/
+  /* Start of Scott's CSS*/
+  .dImgS{
+    width: 40%;
+    height: 450px;
+    margin-left: 45%;
+    margin-top: 20px;
+    padding: 10px;
+  
+  
+  
+  }
+  .dImgSS{
+    width: 40%;
+    height: 450px;
+    margin-left: 45%;
+    margin-top: 20px;
+    padding: 10px;
+  
+  
+  
+  }
+  .imgS{
+    width: 100%;
+    height: 100%;
+  }
+
+  .CA1{
+    padding: 0.5%;
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 50px;
+    width: 96%;
+    margin-bottom: 50px;
+  }
+
+  .CCA1{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 50px;
+    width: 96%;
+    margin-bottom: 50px;
+  }
+  .CCA1N{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: #019128; 
+    border: black 2px solid; 
+    margin-top: 50px;
+    width: 96%;
+    margin-bottom: 50px;
+  }
+  .CCA2{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 50px;
+    width: 96%;
+    margin-bottom: 50px;
+  }
+  .CCA2N{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: #019128; 
+    border: black 2px solid; 
+    margin-top: 50px;
+    width: 96%;
+    margin-bottom: 50px;
+  }
+  .CCA3{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 50px;
+    width: 96%;
+    margin-bottom: 50px;
+  }
+  .CCA3N{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: #019128; 
+    border: black 2px solid; 
+    margin-top: 50px;
+    width: 96%;
+    margin-bottom: 50px;
+  }
+  .CCA4{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 50px;
+    width: 96%;
+    margin-bottom: 50px;
+  }
+  .CCA4N{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: #019128; 
+    border: black 2px solid; 
+    margin-top: 50px;
+    width: 96%;
+    margin-bottom: 50px;
+  }
+  .CCA5{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 50px;
+    width: 96%;
+    margin-bottom: 50px;
+  }
+  .CCA5N{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: #019128; 
+    border: black 2px solid; 
+    margin-top: 50px;
+    width: 96%;
+    margin-bottom: 50px;
+  }
+
+  .location{  /* to change the position of the google maps */
+    position: relative;
+  }
+  
+  .locationn{   /* to change the position of the google maps*/
+    position: absolute;
+    left: 600px;
+    top: -580px;
+  }
+
+  @media (max-width: 950px) { /* code to make it responsive on phone*/
+
+  .CA1{
+    width: 60%;
+    margin-left: 0;
+  }
+
+  .CCA2{
+    width: 98%;
+    margin-left: 0;
+  }
+  .CCA3{
+    width: 98%;
+    margin-left: 0;
+  }
+
+  .CCA4{
+    width: 98%;
+    margin-left: 0;
+  }
+
+  .CCA5{
+    width: 98%;
+    margin-left: 0;
+  }
+  .dImgSS{
+    width: 10%;
+    height: 450px;
+    margin-left: 45%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+
+}
+
+@media (min-width: 950px ) and (max-width: 1290px) { /* code to make it responsive on tablets*/
+  .CA1{
+    width: 98%;
+    margin-left: 0;
+  }
+
+  .CCA2{
+    width: 98%;
+    margin-left: 0;
+  }
+  .CCA3{
+    width: 98%;
+    margin-left: 0;
+  }
+
+  .CCA4{
+    width: 98%;
+    margin-left: 0;
+  }
+
+  .CCA5{
+    width: 98%;
+    margin-left: 0;
+  }
+  .dImgSS{
+    width: 40%;
+    height: 450px;
+    margin-left: 45%;
+    margin-top: 15px;
+    padding: 10px;
+  }
+
+}
