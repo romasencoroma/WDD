@@ -571,24 +571,33 @@ margin-top: -30.5%;
     padding: 10px;
   
   }
-  /* Finish of Roman CSS*/
-  /* Start of Scott CSS*/
   .DSLETXT{
     width: 40%;
     margin-top: -42%;
     margin-left: 1%;
   }
   }
-
-.dImgSS{
+  /* End of Roman's CSS*/
+  /* Start of Scott's CSS*/
+  .dImgS{
     width: 40%;
     height: 450px;
     margin-left: 45%;
     margin-top: 20px;
     padding: 10px;
-
-
-
+  
+  
+  
+  }
+  .dImgSS{
+    width: 40%;
+    height: 450px;
+    margin-left: 45%;
+    margin-top: 20px;
+    padding: 10px;
+  
+  
+  
   }
   .imgS{
     width: 100%;
@@ -600,7 +609,6 @@ margin-top: -30.5%;
     padding-bottom: 120px;
     background-color: lightgreen; 
     border: black 2px solid; 
-    
     margin-top: 30px;
     width: 96%;
     margin-bottom: 50px;
@@ -611,7 +619,6 @@ margin-top: -30.5%;
     padding-bottom: 120px;
     background-color: lightgreen; 
     border: black 2px solid; 
-    margin-top: 50px;
     margin-top: 30px;
     width: 96%;
     margin-bottom: 50px;
@@ -621,7 +628,6 @@ margin-top: -30.5%;
     padding-bottom: 120px;
     background-color: #019128; 
     border: black 2px solid; 
-   
     margin-top: 30px;
     width: 96%;
     margin-bottom: 50px;
@@ -631,7 +637,6 @@ margin-top: -30.5%;
     padding-bottom: 120px;
     background-color: lightgreen; 
     border: black 2px solid; 
-   
     margin-top: 30px;
     width: 96%;
     margin-bottom: 50px;
@@ -641,7 +646,6 @@ margin-top: -30.5%;
     padding-bottom: 120px;
     background-color: #019128; 
     border: black 2px solid; 
-
     margin-top: 30px;
     width: 96%;
     margin-bottom: 50px;
@@ -651,7 +655,6 @@ margin-top: -30.5%;
     padding-bottom: 120px;
     background-color: lightgreen; 
     border: black 2px solid; 
-
     margin-top: 30px;
     width: 96%;
     margin-bottom: 50px;
@@ -661,7 +664,6 @@ margin-top: -30.5%;
     padding-bottom: 120px;
     background-color: #019128; 
     border: black 2px solid; 
-
     margin-top: 30px;
     width: 96%;
     margin-bottom: 50px;
@@ -671,7 +673,6 @@ margin-top: -30.5%;
     padding-bottom: 120px;
     background-color: lightgreen; 
     border: black 2px solid; 
-
     margin-top: 30px;
     width: 96%;
     margin-bottom: 50px;
@@ -681,7 +682,6 @@ margin-top: -30.5%;
     padding-bottom: 120px;
     background-color: #019128; 
     border: black 2px solid; 
-
     margin-top: 30px;
     width: 96%;
     margin-bottom: 50px;
@@ -691,7 +691,6 @@ margin-top: -30.5%;
     padding-bottom: 120px;
     background-color: lightgreen; 
     border: black 2px solid; 
-
     margin-top: 30px;
     width: 96%;
     margin-bottom: 50px;
@@ -701,7 +700,6 @@ margin-top: -30.5%;
     padding-bottom: 120px;
     background-color: #019128; 
     border: black 2px solid; 
-
     margin-top: 30px;
     width: 96%;
     margin-bottom: 50px;
@@ -710,7 +708,7 @@ margin-top: -30.5%;
   .location{  /* to change the position of the google maps */
     position: relative;
   }
-
+  
   .locationn{   /* to change the position of the google maps*/
     position: absolute;
     left: 600px;
@@ -784,3 +782,5 @@ margin-top: -30.5%;
     margin-top: 15px;
     padding: 10px;
   }
+
+}
