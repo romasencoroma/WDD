@@ -297,7 +297,20 @@ body{
   margin-top: -30%;
   margin-left: 1%;
 }
-
+.Ref{
+  width: 96%;
+  background-color: lightgreen;
+  border: black 2px solid;
+  margin-top: 140px;
+  padding-left: 20px;
+}
+.RefN{
+  width: 96%;
+  background-color: #019128;
+  border: black 2px solid;
+  margin-top: 140px;
+  padding-left: 20px;
+}
 @media screen and (max-height: 375px) { /* make some different style for phone */
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -577,6 +590,7 @@ margin-top: -30.5%;
     margin-left: 1%;
   }
   }
+
   /* End of Roman's CSS*/
   /* Start of Scott's CSS*/
   .dImgS{
@@ -784,3 +798,5 @@ margin-top: -30.5%;
   }
 
 }
+/* End of Scott's part */
+/* Start of Egor's part */

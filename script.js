@@ -35,6 +35,7 @@ function openNav() {/* function absolutly remaded by Roman */
     document.getElementById("wEI").classList.toggle("cEImgN") /* give another style for image div */
     document.getElementById("cEI").classList.toggle("cEImgN") /* give another style for image div */
     document.getElementById("nEI").classList.toggle("nEImgN") /* give another style for image div */
+    document.getElementById("Ref").classList.toggle("RefN")
   }
   function darkM2() { /* function dark mode  */
     document.getElementById("main").classList.toggle("dark-mode"); /* give main div another style  */
@@ -49,32 +50,6 @@ function openNav() {/* function absolutly remaded by Roman */
     document.getElementById("SEDLLNS").classList.toggle("SEDNL")
     document.getElementById("SEDLLNP").classList.toggle("SEDNL")
     document.getElementById("SEDLLNPS").classList.toggle("SEDNL")
+    document.getElementById("Ref").classList.toggle("RefN")
   }
 // End of Roman's part
-  function darkM3() { 
-    document.getElementById("main").classList.toggle("dark-mode"); 
-    document.getElementById("mainBar").classList.toggle("mainBarN") 
-    document.getElementById("nature").classList.toggle("natureN") 
-    document.getElementById("mySidenav").classList.toggle("sidenavN") 
-    document.getElementById("nM").classList.toggle("nMN") 
-    document.getElementById("SED").classList.toggle("SEDN")
-    document.getElementById("CA1").classList.toggle("CCA1N")
-    document.getElementById("CA2").classList.toggle("CCA2N")
-    document.getElementById("CA3").classList.toggle("CCA3N")
-    document.getElementById("CA4").classList.toggle("CCA4N")
-    document.getElementById("CA5").classList.toggle("CCA5N")
-  }
-  function darkM4() { 
-    document.getElementById("main").classList.toggle("dark-mode"); 
-    document.getElementById("mainBar").classList.toggle("mainBarN") 
-    document.getElementById("nature").classList.toggle("natureN") 
-    document.getElementById("mySidenav").classList.toggle("sidenavN") 
-    document.getElementById("nM").classList.toggle("nMN") 
-    document.getElementById("SED").classList.toggle("SEDN")
-    document.getElementById("SEDL").classList.toggle("SEDNL")
-    document.getElementById("SEDLL").classList.toggle("SEDNL")
-    document.getElementById("SEDLLN").classList.toggle("SEDNL")
-    document.getElementById("SEDLLNS").classList.toggle("SEDNL")
-    document.getElementById("SEDLLNP").classList.toggle("SEDNL")
-    document.getElementById("SEDLLNPS").classList.toggle("SEDNL")
-  }
