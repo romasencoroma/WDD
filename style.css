@@ -798,5 +798,305 @@ margin-top: -30.5%;
   }
 
 }
-/* End of Scott's part */
-/* Start of Egor's part */
+/* End of Scott's CSS */
+/* Start of Egor's CSS */
+  .dpictures{
+    width: 40%;
+    height: 450px;
+    margin-left: 45%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .dpictures{
+    width: 40%;
+    height: 450px;
+    margin-left: 45%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .pictures{
+    width: 100%;
+    height: 100%;
+  }
+  .UW1{
+    padding: 0.5%;
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 5%;
+    width: 96%;
+  }
+  .UUW1{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 5%;
+    width: 96%;
+  }
+  .UUW1N{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: #019128; 
+    border: black 2px solid; 
+    margin-top: 5%;
+    width: 96%;
+  }
+  .UUW2{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 5%;
+    width: 96%;
+  }
+  .UUW2N{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: #019128; 
+    border: black 2px solid; 
+    margin-top: 5%;
+    width: 96%;
+  }
+  .UUW3{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 5%;
+    width: 96%;
+  }
+  .UUW3N{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: #019128; 
+    border: black 2px solid; 
+    margin-top: 5%;
+    width: 96%;
+  }
+  .UUW4{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 5%;
+    width: 96%;
+  }
+  .UUW4N{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: #019128; 
+    border: black 2px solid; 
+    margin-top: 5%;
+    width: 96%;
+  }
+  .UUW5{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: lightgreen; 
+    border: black 2px solid; 
+    margin-top: 5%;
+    width: 96%;
+  }
+  .UWW5N{
+    padding: 0.5%; 
+    padding-bottom: 120px;
+    background-color: #019128; 
+    border: black 2px solid; 
+    margin-top: 5%;
+    width: 96%;
+  }
+  .dark-mode{
+    background-color: rgb(0,0,0,0.4); 
+  }
+@media (max-width: 950px) { /* code to make it responsive on phone*/
+  .UW1{
+    width: 60%;
+    margin-left: 0;
+  }
+  .UUW2{
+    width: 98%;
+    margin-left: 0;
+  }
+  .UUW3{
+    width: 98%;
+    margin-left: 0;
+  }
+  .UUW4{
+    width: 98%;
+    margin-left: 0;
+  }
+  .UUW5{
+    width: 98%;
+    margin-left: 0;
+  }
+  .dpictures{
+    width: 40%;
+    width: 10%;
+    height: 450px;
+    margin-left: 45%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
+@media (min-width: 950px ) and (max-width: 1290px) { /* code to make it responsive on tablets*/
+  .UW1{
+    width: 98%;
+    margin-left: 0;
+  }
+  .UUW2{
+    width: 98%;
+    margin-left: 0;
+  }
+  .UUW3{
+    width: 98%;
+    margin-left: 0;
+  }
+  .UUW4{
+    width: 98%;
+    margin-left: 0;
+  }
+  .UUW5{
+    width: 98%;
+    margin-left: 0;
+  }
+  .dpictures{
+    width: 40%;
+    height: 450px;
+    margin-left: 45%;
+    margin-top: 20px;
+    padding: 10px;
+  }
+}
+.OL1{
+  padding: 0.5%;
+  padding-bottom: 120px;
+  background-color: lightgreen; 
+  border: black 2px solid; 
+  margin-top: 5%;
+  width: 96%;
+}
+.OOL1{
+  padding: 0.5%; 
+  padding-bottom: 120px;
+  background-color: lightgreen; 
+  border: black 2px solid; 
+  margin-top: 5%;
+  width: 96%;
+}
+.OOL1N{
+  padding: 0.5%; 
+  padding-bottom: 120px;
+  background-color: #019128; 
+  border: black 2px solid; 
+  margin-top: 5%;
+  width: 96%;
+}
+.OOL2{
+  padding: 0.5%; 
+  padding-bottom: 120px;
+  background-color: lightgreen; 
+  border: black 2px solid; 
+  margin-top: 5%;
+  width: 96%;
+}
+.OOL2N{
+  padding: 0.5%; 
+  padding-bottom: 120px;
+  background-color: #019128; 
+  border: black 2px solid; 
+  margin-top: 5%;
+  width: 96%;
+}
+.OOL3{
+  padding: 0.5%; 
+  padding-bottom: 120px;
+  background-color: lightgreen; 
+  border: black 2px solid; 
+  margin-top: 5%;
+  width: 96%;
+}
+.OOL3N{
+  padding: 0.5%; 
+  padding-bottom: 120px;
+  background-color: #019128; 
+  border: black 2px solid; 
+  margin-top: 5%;
+  width: 96%;
+}
+.OOL4{
+  padding: 0.5%; 
+  padding-bottom: 120px;
+  background-color: lightgreen; 
+  border: black 2px solid; 
+  margin-top: 5%;
+  width: 96%;
+}
+.OOL4N{
+  padding: 0.5%; 
+  padding-bottom: 120px;
+  background-color: #019128; 
+  border: black 2px solid; 
+  margin-top: 5%;
+  width: 96%;
+}
+.OOL5{
+  padding: 0.5%; 
+  padding-bottom: 120px;
+  background-color: lightgreen; 
+  border: black 2px solid; 
+  margin-top: 5%;
+  width: 96%;
+}
+.OOL5N{
+  padding: 0.5%; 
+  padding-bottom: 120px;
+  background-color: #019128; 
+  border: black 2px solid; 
+  margin-top: 5%;
+  width: 96%;
+}
+@media (min-width: 950px ) and (max-width: 1290px) { /* code to make it responsive on tablets*/
+  .OL1{
+    width: 98%;
+    margin-left: 0;
+  }
+  .OOL2{
+    width: 98%;
+    margin-left: 0;
+  }
+  .OOL3{
+    width: 98%;
+    margin-left: 0;
+  }
+  .OOL4{
+    width: 98%;
+    margin-left: 0;
+  }
+  .OOL5{
+    width: 98%;
+    margin-left: 0;
+  }
+}
+@media (max-width: 950px) { /* code to make it responsive on phone*/
+  .OL1{
+    width: 60%;
+    margin-left: 0;
+  }
+  .OOL2{
+    width: 98%;
+    margin-left: 0;
+  }
+  .OOL3{
+    width: 98%;
+    margin-left: 0;
+  }
+  .OOL4{
+    width: 98%;
+    margin-left: 0;
+  }
+  .OOL5{
+    width: 98%;
+    margin-left: 0;
+  }
+}
